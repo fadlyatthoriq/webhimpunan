@@ -8,11 +8,11 @@ Alternative installation is possible without local dependencies relying on [Dock
 
 Clone the repository
 
-    git clone https://github.com/fadlyatthoriq/Web-Himatif.git
+    git clone https://github.com/fadlyatthoriq/webhimpunan.git
 
 Switch to the repo folder
 
-    cd Web-Himatif
+    cd webhimpunan
 
 Install all the dependencies using composer
 
@@ -52,5 +52,5 @@ You can now access the server at http://localhost:8000
 ## credit
 - [framework laravel](https://laravel.com/)
 - [bootstrap](https://getbootstrap.com/docs/4.6/getting-started/introduction/)
-- voyager (https://voyager-docs.devdojo.com/)
+- [voyager](https://voyager-docs.devdojo.com/)
 
