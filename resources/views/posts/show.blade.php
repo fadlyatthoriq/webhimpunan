@@ -29,13 +29,14 @@
                         <p><b>Uploader :</b> Divisi Informasi dan Komunikasi</p>
                     @endforeach
                 </div>
-                <div class="project-info-box mt-0 mb-0">
-                    <p class="mb-0">
+                <div class="project-info-box mt-0 ">
+                    <p>
                         <span class="fw-bold mr-10 va-middle hide-mobile">Share:</span>
                         <a href="https://www.instagram.com/himatif.jgu/" target="__blank" class="btn btn-xs btn-facebook btn-facebook-link btn-outline-facebook btn-circle btn-icon mr-5 mb-0">
                             <i class="fab fa-instagram"></i>
                         </a>
                     </p>
+                    <a href="javascript:history.back()" class="btn btn-success"><i class="fas fa-backward"></i> Back to home</a>
                 </div>
             </div>
             <div class="col-md-7">

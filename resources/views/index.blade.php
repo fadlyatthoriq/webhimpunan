@@ -127,7 +127,7 @@
                         @forelse($sejarah as $item)
                             <h3> {{ $item->title }} </h3>
                             <p>
-                                {{ $item->description }}
+                                {!! $item->description !!}
                             </p>
                         @empty
                             <h3>Nothing</h3>
@@ -137,7 +137,7 @@
                         @forelse($visimisi as $item)
                             <h3>{{ $item->title }}</h3>
                             <p>
-                                {{ $item->description }}
+                                {!! $item->description !!}
                             </p>
                         @empty
                             <h3>Nothing</h3>
@@ -147,7 +147,7 @@
                     </div>
                 </div>
 
-                <div class="row mt-4">
+                {{-- <div class="row mt-4">
                     <h3 class="fw-bold">Struktur Organisasi</h3>
                     @forelse($pembina1 as $item)
                         <div class="col text-center p-3 mx-auto">
@@ -167,7 +167,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -191,7 +191,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +215,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -241,7 +241,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -265,7 +265,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -289,7 +289,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -339,7 +339,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -363,7 +363,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -387,7 +387,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -413,7 +413,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -437,7 +437,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -461,7 +461,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -485,7 +485,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -509,7 +509,7 @@
                                     class="card-img-top imgprofile" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">Ketua Himpunan</p>
+                                    <p class="card-text">Nama</p>
                                 </div>
                             </div>
                         </div>
@@ -595,7 +595,7 @@
 
 
 
-                </div>
+                </div> --}}
 
             </div>
         </section><!-- End About Us Section -->
@@ -646,7 +646,7 @@
             <div class="section-title">
                 <h2>Alumni</h2>
             </div>
-
+            
             <div class="content">
                 <div class="container">
                     <div class="row">
@@ -720,11 +720,7 @@
             <h3>HIMATIF</h3>
             <P>Powered by IT Support Himpunan Mahasiswa Teknik Informatika</P>
             <div class="social-links">
-                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                <a href="https://www.instagram.com/himatif.jgu/" class="instagram"><i class="bx bxl-instagram"></i></a>
             </div>
             <div class="copyright">
                 &copy; Copyright <strong><span> HIMATIF </span></strong>. All Rights Reserved
