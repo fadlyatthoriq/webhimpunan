@@ -15,6 +15,7 @@ use App\Http\Controllers\IndexController;
 */
 
 Route::get('/', [IndexController::class, 'index']);
+Route::get('/strukturorganisasi', [IndexController::class, 'struktur'])->name('struktur');
 
 Route::get('/post/{slug}', [IndexController::class, 'showBySlug'])->name('slug');
 
