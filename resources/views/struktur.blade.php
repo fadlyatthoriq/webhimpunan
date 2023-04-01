@@ -5,5 +5,9 @@
 @endsection
 
 @section('main')
-    <div style="width:100%; height:700px;" id="tree"></div>
+    <div class="mt-3">
+        <h3 class="fw-bold">Struktur Organisasi</h3>
+        <p><span style="color: grey">Click and Drag down your mouse to view more</span></p>
+    </div>
+    <div style="width:100%; height:700px; background-color:rgb(240, 240, 240)" id="tree"></div>
 @endsection

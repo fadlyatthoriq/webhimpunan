@@ -1486,3 +1486,7 @@ section {
   font-weight: 700;
   font-size: 1em;
 }
+
+[data-n-id] rect {
+  fill: #016e25;
+}

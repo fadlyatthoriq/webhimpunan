@@ -69,7 +69,7 @@
             </div>
 
             {{-- Struktur Organisasi --}}
-            <div class="row mt-4">
+            <div class="mt-4">
                 <h3 class="fw-bold">Struktur Organisasi</h3>
                 <a href="{{route('struktur')}}" class="btn btn-success">View Struktur</a>
             </div>
